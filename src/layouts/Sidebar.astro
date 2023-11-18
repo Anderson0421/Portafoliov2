@@ -48,6 +48,11 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
     </button>
+    <button type="button" class="hidden" id="BtnClose">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+    </button>
 </div>
 <style>
     .active{
@@ -60,7 +65,6 @@
     transition:  all ease-out;
 
         }
-
     @keyframes slideContent {
         from {
             transform: translateX(-100%);
@@ -75,17 +79,26 @@
 
 <script>
     const BtnMenu = document.getElementById('BtnMenu')
+    const BtnClose = document.getElementById('BtnClose')
     const sidebar = document.getElementById('sidebar')
 
     BtnMenu.addEventListener('click',function(){
-        sidebar.classList.toggle('hidden')
-        sidebar.classList.toggle('open');
+        sidebar.classList.remove('hidden')
+        BtnMenu.classList.add('hidden')
+        sidebar.classList.add('open');
+        BtnClose.classList.remove('hidden')
 
     if (sidebar.classList.contains('open')) {
         sidebar.classList.remove('close');
     } else {
         sidebar.classList.add('close');
     }
+
+    BtnClose.addEventListener('click',function(){
+        sidebar.classList.add('hidden')
+        BtnMenu.classList.remove('hidden')
+        BtnClose.classList.add('hidden')
+    })
 
 
     })
