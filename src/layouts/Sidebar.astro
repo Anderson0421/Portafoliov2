@@ -1,4 +1,4 @@
-<div class="p-5 bg-gray-800 w-72 h-screen max-md:hidden">
+<div class="p-5 fixed bg-gray-800 w-72 h-screen hidden" id="sidebar">
     <div class="flex items-center  flex-col">
         <img src="logos/animatedlogo.jpg" alt="logo" class="w-40 rounded-full mb-14 mt-5">
         <div class="flex flex-col gap-4">
@@ -53,16 +53,52 @@
     .active{
         background-color: rgb(34, 34, 34);
     }
+    .open {
+    transform: translateX(0);
+    animation: slideContent 0.5s forwards;
+    transform: translateX(-100%);
+
+        }
+
+    @keyframes slideContent {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    .close {
+        transform: translateX(100);
+        animation: slideContent 0.5s forwards;
+        transform: translateX(-100%);
+    }
+
 </style>
-<script src="scripts/scripts.js" type="module"></script>
 
 <script>
+    const BtnMenu = document.getElementById('BtnMenu')
+    const sidebar = document.getElementById('sidebar')
+
+    BtnMenu.addEventListener('click',function(){
+        sidebar.classList.toggle('hidden')
+        sidebar.classList.toggle('open');
+
+    if (sidebar.classList.contains('open')) {
+        sidebar.classList.remove('close');
+    } else {
+        sidebar.classList.add('close');
+    }
+
+
+    })
     document.addEventListener('DOMContentLoaded', function () {
         var navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(function (link) {
             link.addEventListener('click', function () {
                 navLinks.forEach(function (navLink) {
                     navLink.classList.remove('active');
+                    
                 });
                 link.classList.add('active');
                 sessionStorage.setItem('lastActiveLink', '.' + link.classList[1]);
