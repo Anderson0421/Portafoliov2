@@ -25,42 +25,22 @@ const { title } = Astro.props;
 		<slot />
 		
 		<script>
-		document.addEventListener('DOMContentLoaded', function () {
+		document.addEventListener('astro:page-load', () => {
 			const BtnMenu = document.getElementById('BtnMenu');
 			const sidebar = document.getElementById('sidebar');
 			const svg = BtnMenu.querySelector('svg');
 
 			BtnMenu.addEventListener('click', () => {
 				sidebar.classList.toggle('hidden');
-				sidebar.classList.add('open'); // Cambiado de 'add' a 'toggle' para manejar ambos casos
+				sidebar.classList.add('open');
 
 				if (sidebar.classList.contains('hidden')) {
 					svg.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>';
 				} else {
 					svg.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>';
 				}
-
-				// Guarda el estado en el almacenamiento local al hacer clic en el botón
-				const newState = sidebar.classList.contains('open') ? 'open' : 'hidden';
-				localStorage.setItem('navbarState', newState);
+				});
 			});
-
-			// Recupera el estado del almacenamiento local al cargar la página
-			window.addEventListener('load', () => {
-				const navbarState = localStorage.getItem('navbarState');
-				if (navbarState === 'open') {
-					sidebar.classList.add('open');
-				} else {
-					sidebar.classList.add('hidden');
-				}
-			});
-
-			// Maneja el evento 'beforeunload' para guardar el estado antes de cambiar de página (Astro)
-			window.addEventListener('beforeunload', () => {
-				const newState = sidebar.classList.contains('open') ? 'open' : 'hidden';
-				localStorage.setItem('navbarState', newState);
-			});
-		});
 
 			
 			</script>
