@@ -2,14 +2,12 @@
 import { ViewTransitions } from 'astro:transitions';
 import Home from './Home.astro';
 import Sidebar from './Sidebar.astro';
-
 interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
 ---
-
 <!doctype html>
 <html lang="en" data-theme="dark">
 	<head>
@@ -53,12 +51,9 @@ const { title } = Astro.props;
 			});
 		});
 
-
 			document.addEventListener('DOMContentLoaded', function () {
 				var navLinks = document.querySelectorAll('.nav-link');
-
 				var currentUrl = window.location.href;
-
 				var lastActiveLink = sessionStorage.getItem('lastActiveLink');
 
 				if (lastActiveLink) {
@@ -70,12 +65,9 @@ const { title } = Astro.props;
 						navLinks.forEach(function (navLink) {
 							navLink.classList.remove('active');
 						});
-
 						link.classList.add('active');
-
 						sessionStorage.setItem('lastActiveLink', '.' + link.classList[1]);
 					});
-
 					if (currentUrl.includes(link.getAttribute('href'))) {
 						link.classList.add('active');
 					}
