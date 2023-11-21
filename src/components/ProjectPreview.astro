@@ -1,16 +1,16 @@
 ---
     const {project} = Astro.props;
 ---
-<div class="ml-10 relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-    <div class="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none shrink-0 rounded-xl bg-clip-border">
+<div class="ml-10 relative flex w-full max-w-[48rem] flex-row rounded-xl bg-gray-200  bg-clip-border text-gray-700 shadow-md">
+    <div class="relative w-2/5 m-0 overflow-hidden text-gray-700   bg-gray-200 rounded-r-none shrink-0 rounded-xl bg-clip-border">
         <img
             src={project.frontmatter.image.url} 
             alt="image"
-            class="object-cover w-full h-full"
+            class="object-contain w-full h-full"
         />
         </div>
         <div class="p-6">
-        <h6 class="block mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-pink-500">
+        <h6 class="block mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-500">
             <a class="text-2xl" href={project.url}>{project.frontmatter.title}</a>
         </h6>
         <h4 class="block mb-2 text-gray-500 font-sans text-sm antialiased font-semibold leading-snug tracking-normal">
@@ -21,7 +21,7 @@
         </p>
         <a class="inline-block" href="#">
             <a href={project.url}
-            class="flex w-max items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-pink-500 uppercase align-middle transition-all rounded-lg select-none hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            class="flex w-max items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-blue-500 uppercase align-middle transition-all rounded-lg select-none hover:bg-blue-500/10 active:bg-blue-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             type="button"
             >
             Más info
