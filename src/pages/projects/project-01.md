@@ -10,7 +10,6 @@ image:
 tags: ["Django ", "Tailwind ", "PostgreSQL"]
 ---
 
-
 <img src="../devcollab/devwebp.webp" alt="DevCollab" class="w-40 mb-5" />
 <p class="mb-5 text-sm text-gray-400">Desarollado desde 30/10/23 hasta el 20/11/23 </p>
 <h2 class="text-4xl mb-5 font-bold  text-gray-200">Plataforma Dev Collab</h2>
