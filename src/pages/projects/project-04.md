@@ -13,7 +13,6 @@ tecnologias :
 ---
 
 
-<img src="../dashadmin/img1.png" alt="DevCollab" class="w-3/4 pr-10 mb-5 rounded-lg" />
 <p class="mb-5 text-sm text-gray-400">Desarollado desde 05/03/23 hasta el 20/05/23 </p>
 <h2 class="text-4xl mb-5 font-bold  text-gray-200">Dashoard administrativo</h2>
 
@@ -79,7 +78,7 @@ Volver  </a>
            <div>
             <p class="mb-10 w-3/4">
               Gestión de los productos que estaran en la pagina web principal, si actualizas algun precio o imagen, automaticamente se actualizara en la web principal, Descarga la BD en formato Excel segun las fechas que coloques para tener mayor seguimiento de las ventas!
-          </p>
+            </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
           <img src="../dashadmin/producs.png" alt="img1" class="rounded-lg mb-10">
@@ -88,6 +87,6 @@ Volver  </a>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/>
   </svg>
 </a>

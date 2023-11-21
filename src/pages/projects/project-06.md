@@ -5,8 +5,8 @@ author: AnderDev
 date: 10/09/23  -  18/10/23
 description: "Clone de la pagina Digital ocean, para poner a prueba el conocimiento obtenido en Tailwind y Vue.js."
 image:
-  url: "../ecommerce/ecomerc3.png"
-  alt: "Ecommerce Web"
+  url: "../clone/img1.png"
+  alt: "Digital Ocean Clone"
 tecnologias : 
   tec1 : "../icons/html-5-svgrepo-com.png"
   tec2 : "../icons/tailwind-svgrepo-com.png"
@@ -15,8 +15,8 @@ tecnologias :
 
 
 <img src="../devcollab/devwebp.webp" alt="DevCollab" class="w-40 mb-5" />
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 30/10/23 hasta el 20/11/23 </p>
-<h2 class="text-4xl mb-5 font-bold  text-gray-200">Plataforma Dev Collab</h2>
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 10/09/23 hasta el 15/09/23 </p>
+<h2 class="text-4xl mb-5 font-bold  text-gray-200">Digital Ocean Clone</h2>
 
 
 

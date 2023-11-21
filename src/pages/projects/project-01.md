@@ -34,6 +34,9 @@ Concectar con diversas personas - Dark Mode. etc.
 <p class="mt-3">
 Esto es la version 1 ya que tengo pensado hacer una V2 con mejores funcionalidades,ideas y todo ,la idea seria subirlo a produccion con la V2
 </p>
+<p class="mt-3">
+Puedes ver la Landing Page de la pagina <a class="text-cyan-400" target="_blank" href="https://devcollabhub.vercel.app/">Aqui!</a>
+</p>
 <div class="flex gap-5">
 <a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
