@@ -1,16 +1,16 @@
 ---
 layout: ../../layouts/LayoutsProject.astro
-title: Plataforma DevCollab
+title: Ecommerce Web
 author: AnderDev
 date: 10/09/23  -  18/10/23
-description: "DevCollab es una plataforma web en el que podrás realizar proyectos, aprender y aún más, poder generar relaciones profesionales y empresariales, abriéndose grandes oportunidades de trabajo.Desarollado en Django con Tailwind y PostgreSQL"
+description: "Ecommerce web utilizando Django y MySQL, Docker , Git , GitHub Diversas funcionalidades como pasarela de pago con PayPal, carrito de compras, etc. Proyecto orientado a la mejora continua, con la perspectiva de implementar Frameworks como Angular, Vue o React en el futuro"
 image:
-  url: "../devcollab/img.jpg"
-  alt: "DevCollab"
+  url: "../ecommerce/ecomerc3.png"
+  alt: "Ecommerce Web"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"
-  tec2 : "../icons/postgresql-svgrepo-com.png"
-  tec3 : "../icons/tailwind-svgrepo-com.png"
+  tec2 : "../icons/mysql-logo-svgrepo-com.png"
+  tec3 : "../icons/docker-svgrepo-com.png"
 ---
 
 

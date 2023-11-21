@@ -6,7 +6,7 @@ const projects = await Astro.glob('./projects/*md')
 
 ---
 <Layout title="Mi portafolio.">
-    <section class="ml-72 pt-10 overflow-x-hidden max-md:ml-0 max-md:pt-1 relative overflow-hidden" id="home">
+    <section class="ml-72 pt-10 overflow-x-hidden gap-y-5 max-xl:justify-center max-sm:mr-10 flex flex-wrap max-md:ml-0 max-md:pt-1 relative overflow-hidden" id="home">
         {
             projects.map(project => <ProjectPreview {... project} project={project} />)
         }        
