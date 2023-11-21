@@ -10,17 +10,14 @@
         />
         </div>
         <div class="p-6">
-        <h6 class="block mb-4 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-pink-500 uppercase">
-            startups
+        <h6 class="block mb-4 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-pink-500">
+            <a class="text-2xl" href={project.url}>{project.frontmatter.title}</a>
         </h6>
-        <h4 class="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            Lyft launching cross-platform service this week
+        <h4 class="block mb-2 text-gray-500 font-sans text-sm antialiased font-semibold leading-snug tracking-normal">
+            {project.frontmatter.date}
         </h4>
         <p class="block mb-8 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
-            Like so many organizations these days, Autodesk is a company in
-            transition. It was until recently a traditional boxed software company
-            selling licenses. Yet its own business model disruption is only part of
-            the story
+            {project.frontmatter.description}
         </p>
         <a class="inline-block" href="#">
             <button

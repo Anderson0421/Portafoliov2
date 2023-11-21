@@ -2,7 +2,7 @@
 layout: ../../layouts/LayoutsProject.astro
 title: Plataforma DevCollab
 author: AnderDev
-date: 2022-08-08
+date: 10/09/23  -  18/10/23
 description: "DevCollab es una plataforma web en el que podrás realizar proyectos, aprender y aún más, poder generar relaciones profesionales y empresariales, abriéndose grandes oportunidades de trabajo.Desarollado en Django con Tailwind y PostgreSQL"
 image:
   url: "../devcollab/devwebp.webp"
