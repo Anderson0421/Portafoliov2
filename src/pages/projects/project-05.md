@@ -9,8 +9,8 @@ image:
   alt: "Ecommerce Web"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"
-  tec2 : "../icons/mysql-logo-svgrepo-com.png"
-  tec3 : "../icons/docker-svgrepo-com.png"
+  tec2 : "../icons/aws-svgrepo-com.png"
+  tec3 : "../icons/tailwind-svgrepo-com.png"
 ---
 
 

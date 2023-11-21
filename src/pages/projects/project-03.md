@@ -5,7 +5,7 @@ author: AnderDev
 date: 10/09/23  -  18/10/23
 description: "Sistema de predios y deudas con Django y PostgreSQL Diversas funcionalidades como consultas de predios , consultas de deudas , Dashboard User, Registro de usuario, Dashboard Administrador, Login Implementación de Datatables para la visualizacion de datos ,etc."
 image:
-  url: "../ecommerce/ecomerc3.png"
+  url: "../predios/predio1.jpg"
   alt: "Sistema de predios"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"

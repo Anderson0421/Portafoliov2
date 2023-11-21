@@ -2,10 +2,9 @@
 layout: ../../layouts/LayoutsProject.astro
 title: Dashboard administrativo
 author: AnderDev
-date: 10/09/23  -  18/10/23
 description: "Web diseñada para un restaurante con diversos productos y un sistema de pedidos. Esta sistema se incluyó PHP, CSS3 y JavaScript, implemente AJAX para optimizar la carga de contenido. Además, gestioné la base de datos utilizando MySQL para garantizar la integridad de los datos y la funcionalidad del sitio."
 image:
-  url: "../ecommerce/ecomerc3.png"
+  url: "../dashadmin/img1.png"
   alt: "Dashboard administrativo"
 tecnologias : 
   tec1 : "../icons/php-svgrepo-com.png"
@@ -14,25 +13,25 @@ tecnologias :
 ---
 
 
-<img src="../devcollab/devwebp.webp" alt="DevCollab" class="w-40 mb-5" />
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 30/10/23 hasta el 20/11/23 </p>
-<h2 class="text-4xl mb-5 font-bold  text-gray-200">Plataforma Dev Collab</h2>
+<img src="../dashadmin/img1.png" alt="DevCollab" class="w-3/4 pr-10 mb-5 rounded-lg" />
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 05/03/23 hasta el 20/05/23 </p>
+<h2 class="text-4xl mb-5 font-bold  text-gray-200">Dashoard administrativo</h2>
 
 
 
 <div class="pr-5">
-En el Perú, la falta de oportunidad laboral afecta un 75% de jóvenes. Donde el 40% tienen menos de un año de experiencia, del total, un 29% lleva entre 3 a 6 meses buscando oportunidad laboral y el 45% no encuentra por no tener expedición, después de haber culminado sus estudios de pre grado. FUENTE: RPP – 2023
+Web diseñada para un restaurante con diversos productos y un sistema de pedidos. Sistema administrativo de productos y pedidos, Esta sistema se incluyó PHP, CSS3 y JavaScript
 <p class="mt-3">
-DevCollab es una plataforma web en el que podrás realizar proyectos, aprender y aún más, poder generar relaciones profesionales y empresariales, abriéndose grandes oportunidades de trabajo.
+Gestion de la base de datos utilizando MySQL para garantizar la integridad de los datos y la funcionalidad del sitio
 </p>
 
 <p class="mt-3">
-Dentro de la plataforma cuentas con diversas funcionalidades como Registro - Inicio de sesion  - Publicar tu propio proyecto - Unirte a un proyecto
-Concectar con diversas personas - Dark Mode. etc.
+Implementacion de AJAX para optimizar la carga de contenido.El proyecto esta en proceso para migrado a Laravel
+
 </p>
 
 <p class="mt-3">
-Esto es la version 1 ya que tengo pensado hacer una V2 con mejores funcionalidades,ideas y todo ,la idea seria subirlo a produccion con la V2
+Algunas de las funcionalidades, Dashoard admin, login , Graficos, DarkMode, Descarga de BD en Excel
 </p>
 <div class="flex gap-5">
 <a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
@@ -48,34 +47,43 @@ Volver  </a>
 </div>
 </div>
     <div class="flex flex-col justify-center mb-20">
-          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Inicio de sesion</h1>
+          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Realizar tu pedido en la web</h1>
           <div>
             <p class="mb-10 w-3/4">
-              Puedes registrarte con tu correo electronico y contrasena , te llegara un correo de confirmacion para verificarte!
+              Una vez realizes tu pedido en la web principal le llegara de inmediato al dashboard del empleado administrador a cargo, dentro de ello el administrador debera hacer la entrega del pedido y marcar si el pedido esta pagado o no
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../devcollab/img5.jpg" alt="img1" class="rounded-lg">
+          <img src="../dashadmin/pedido.png" alt="img1" class="rounded-lg">
         </div>
-          <h1 class="text-2xl font-bold py-2 mt-5"># Seccion de perfil</h1>
+          <h1 class="text-2xl font-bold py-2 mt-5"># Seccion de Dashboard</h1>
            <div>
             <p class="mb-10 w-3/4">
-              Podrás colocar tus tus datos personales como Portafolio Web, CV, Redes, para que los demas te puedan conocer un poco más
-              Consigue tu certificado al culminar el proyecto para anexarlo en tu CV.
+            Como podemos observar el pedido llega correctamente y de aqui se encarga el administrador
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../devcollab/img1.jpg" alt="img1" class="rounded-lg">
+          <img src="../dashadmin/llego.png" alt="img1" class="rounded-lg">
           </div>
-          <h1 class="text-2xl font-bold mt-5 mb-5"># Gestión de tus propios proyectos y unirse a otros proyectos</h1>
+          <h1 class="text-2xl font-bold mt-5 mb-5"># Graficos de TOP Ventas y TOP Productos</h1>
            <div>
             <p class="mb-10 w-3/4">
-              Crea y gestiona tus propios proyectos, integrando reglas como máximos participantes, roles requeridos y datos del proyecto.
-              Conecta con otros usuarios para realizar proyectos, con la finalidad de ganar conocimiento y experencia.
+              Implementación de graficos para la visualización de las ventas y los productos mas vendidos para tener mayor control de los pedidos.
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../devcollab/img2.jpg" alt="img1" class="rounded-lg">
+          <img src="../dashadmin/grafics.png" alt="img1" class="rounded-lg mb-10">
+          <img src="../dashadmin/grafics2.png" alt="img1" class="rounded-lg">
+          </div>
+           <h1 class="text-2xl font-bold mt-5 mb-5"># Gestion de tus productos y Descarga de la BD en Excel</h1>
+           <div>
+            <p class="mb-10 w-3/4">
+              Gestión de los productos que estaran en la pagina web principal, si actualizas algun precio o imagen, automaticamente se actualizara en la web principal, Descarga la BD en formato Excel segun las fechas que coloques para tener mayor seguimiento de las ventas!
+          </p>
+          </div>
+         <div class="max-2xl:w-full max-2xl:pr-5">
+          <img src="../dashadmin/producs.png" alt="img1" class="rounded-lg mb-10">
+          <img src="../dashadmin/bdexcel.png" alt="img1" class="rounded-lg">
           </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
