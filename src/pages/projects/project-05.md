@@ -15,7 +15,6 @@ tecnologias :
 ---
 
 
-<img src="../blogpersonal/anderdev.webp" alt="DevCollab" class="w-40 mb-5" />
 <p class="mb-5 text-sm text-gray-400">Desarollado desde 01/01/24 hasta el 02/02/24 </p>
 <h2 class="text-4xl mb-5 font-bold  text-gray-200">Blog Personal</h2>
 

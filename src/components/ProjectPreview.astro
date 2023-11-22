@@ -2,10 +2,12 @@
     const {project} = Astro.props;
 ---
 <div class="ml-10 relative flex w-full h-full max-w-[26rem] flex-col rounded-xl bg-gray-800 bg-clip-border text-gray-100 shadow-lg">
+    <a href={project.url}>   
         <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
         <img src={project.frontmatter.image.url}  title="Project AnderDev" alt="imgproject"/>
         <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"></div>
         </div>
+    </a> 
         <div class="p-6">
         <div class="flex items-center justify-between mb-3">
             <h5 class="block font-sans text-xl antialiased font-bold leading-snug tracking-normal text-blue-gray-900">
