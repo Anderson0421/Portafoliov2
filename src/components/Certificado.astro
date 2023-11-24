@@ -1,0 +1,11 @@
+---
+    interface Props {
+        link: string;
+        image: string;
+        categoria : string;
+    }
+
+    const { link, image, categoria} = Astro.props;
+---
+
+<a href={link} data-category={categoria} target="_blank" class="item bg-gradient-to-l caja2 from-gray-800  to-gray-900 group p-5 rounded-lg"><img width="450px"  class="rounded-md group-hover:scale-105 duration-500 transition-all ease-in-out" src={image} alt="Certificado"></a>

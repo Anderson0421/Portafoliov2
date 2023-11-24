@@ -2,10 +2,10 @@
 layout: ../../layouts/LayoutsProject.astro
 title: Blog Personal
 author: AnderDev
-date: 10/09/23  -  18/10/23
-description: "Blog personal desarollado con Django Rest Framework para el backend creacion de API para los Posts y consumirla en el frontend con Astro y TailwindCSS, con perspectiva a mejorarlo aun mas con algun framework Frontend como Angular o Vue.js"
+date: 20/11/23  -  10/12/23
+description: "Blog personal desarollado con Django para el Backend y Tailwind para el frontend, Proyecto desplegado en Render con base de datos SQLite3"
 image:
-  url: "../blogpersonal/anderdev.webp"
+  url: "../blogpersonal/blog1.png"
   alt: "Blog Personal"
   width: "100"
 tecnologias : 
@@ -15,7 +15,7 @@ tecnologias :
 ---
 
 
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 01/01/24 hasta el 02/02/24 </p>
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 20/11/23 hasta el 10/12/23 </p>
 <h2 class="text-4xl mb-5 font-bold  text-gray-200">Blog Personal</h2>
 
 
@@ -23,16 +23,13 @@ tecnologias :
 <div class="pr-5">
 
 <p class="mt-3">
+  Blog personal desarrollado con Django y Tailwindcss
 
+  Cuenta con funcionalidades como , Registro , Login , Likes, Comments, Views, DjangoAdmin, Etc.
+
+  Version 1.0
 </p>
 
-<p class="mt-3">
-
-</p>
-
-<p class="mt-3">
-
-</p>
 <div class="flex gap-5">
 <a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -47,33 +44,16 @@ Volver  </a>
 </div>
 </div>
     <div class="flex flex-col justify-center mb-20">
-          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># </h1>
+          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Inicio </h1>
           <div>
-            <p class="mb-10 w-3/4">
-          </p>
+            <p class="mb-10 w-3/4">Podras ver los Posts que subo , podras interacturar con ello como Like, Comentar, y Visitas.</p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../devcollab/img5.jpg" alt="img1" class="rounded-lg">
+          <img src="../blogpersonal/blog1.png" alt="img1" class="rounded-lg">
         </div>
-          <h1 class="text-2xl font-bold py-2 mt-5">#</h1>
-           <div>
-            <p class="mb-10 w-3/4">
-          </p>
-          </div>
-         <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../devcollab/img1.jpg" alt="img1" class="rounded-lg">
-          </div>
-          <h1 class="text-2xl font-bold mt-5 mb-5">#</h1>
-           <div>
-            <p class="mb-10 w-3/4">
-          </p>
-          </div>
-         <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../devcollab/img2.jpg" alt="img1" class="rounded-lg">
-          </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
   </svg>
 </a>

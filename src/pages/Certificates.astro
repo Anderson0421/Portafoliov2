@@ -1,8 +1,26 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Certificado from "../components/Certificado.astro";
 
 ---
 
 <Layout title="Mi portafolio.">
-	
+
+<section class="ml-72 max-md:ml-0 max-md:px-5">
+    <div class="text-white">
+        <div id="items" class="container pt-5 justify-center mx-auto flex gap-4 mb-20 max-w-full flex-wrap">
+            <Certificado categoria="frontend" link="https://www.linkedin.com/learning/certificates/fe6a7ba82165b493210ed9ba059d577abfba281e1dd01e10875c5c283a8c3ec7" image="Certificados/microsoft.png"></Certificado>
+            <Certificado categoria="frontend" link="https://rb.gy/4kzad" image="Certificados/LINKEDINphp.webp"></Certificado>
+            <Certificado categoria="backend" link="#" image="Certificados/ia.webp"></Certificado>
+            <Certificado categoria="backend" link="#" image="Certificados/oraclesql.webp"></Certificado>
+            <Certificado categoria="backend" link="https://rb.gy/94xql" image="Certificados/certificadoibm.webp"></Certificado>
+            <Certificado categoria="backend" link="https://rb.gy/4r3sf" image="Certificados/certificad-curso-django.webp"></Certificado>
+            <Certificado categoria="backend" link="https://rb.gy/6dsms" image="Certificados/certificad-curso-django-ecommerce.webp"></Certificado>
+            <Certificado categoria="frontend" link="https://rb.gy/9xfjx" image="Certificados/tailwind.webp"></Certificado>
+            <Certificado categoria="backend" link="#" image="Certificados/cisco.webp"></Certificado>
+            <Certificado categoria="backend" link="#" image="Certificados/udemy.webp"></Certificado>
+            <Certificado categoria="backend" link="#" image="Certificados/udemysql.webp"></Certificado>
+        </div>
+    </div>
+</section>
 </Layout>
