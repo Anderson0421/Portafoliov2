@@ -26,6 +26,8 @@ tecnologias :
   Blog personal desarrollado con Django y Tailwindcss
 
   Cuenta con funcionalidades como , Registro , Login , Likes, Comments, Views, DjangoAdmin, Etc.
+  
+  Link del despliegue <a href="https://blog-anderdev-com.onrender.com/" target='_blank' class="text-blue-500">aqui</a>
 
   Version 1.0
 </p>
