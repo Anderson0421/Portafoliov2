@@ -3,5 +3,5 @@
 * Hecho con Tailwind y en Astro 🚀
 
 # Deploy
-<a href="https://portafolio-anderdev.vercel.app/" target='_blank'>https://portafolio-anderdev.vercel.app/ </a>
+<a href="https://portafolio-anderdev.vercel.app/" target=_blank>https://portafolio-anderdev.vercel.app/ </a>
 
