@@ -1,32 +1,57 @@
 ---
 layout: ../../layouts/LayoutsProject.astro
-title: Ecommerce Web
+title: Blog Personal
 author: AnderDev
-date: 10/09/23  -  18/10/23
-description: "Ecommerce web utilizando Django y MySQL, Docker , Git , GitHub Diversas funcionalidades como pasarela de pago con PayPal, carrito de compras, etc. Proyecto orientado a la mejora continua, con la perspectiva de implementar Frameworks como Angular, Vue o React en el futuro"
+date: 20/11/23  -  10/12/23
+description: "Blog personal desarollado con Django para el Backend y Tailwind para el frontend, Proyecto desplegado en Render con base de datos PostgreSQL"
 image:
-  url: "../ecommerce/ecomerc3.png"
-  alt: "Ecommerce Web"
+  url: "../blogpersonal/blog2.png"
+  alt: "Blog Personal"
+  width: "100"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"
-  tec2 : "../icons/mysql-logo-svgrepo-com.png"
-  tec3 : "../icons/docker-svgrepo-com.png"
+  tec2 : "../icons/postgresql-svgrepo-com.png"
+  tec3 : "../icons/tailwind-svgrepo-com.png"
 ---
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 12/09/23 hasta el 20/09/23 </p>
-<h2 class="text-4xl mb-5 font-bold  text-gray-200">Ecommerce Web</h2>
+
+
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 20/11/23 hasta el 01/12/23 </p>
+<h2 class="text-4xl mb-5 font-bold  text-gray-200">Blog Personal</h2>
 
 
 
 <div class="pr-5">
-Ecommerce web utilizando Django y MySQL, Docker , Git , GitHub.
+
 <p class="mt-3">
- Diversas funcionalidades como pasarela de pago con PayPal, carrito de compras, etc.
- SweetAlert para las aletras como agregado al carrito de compras y validaciones, Inicio de sesion y Register.
+
+  🚀 ¡Emocionado de compartir mi blog personal! 🚀
+  
+
+</p>
+<p class="mt-3">
+  📚 Blog Personal Hecho con Pasión y Tecnología ❤️
 </p>
 
 <p class="mt-3">
-Proyecto orientado a la mejora continua, con la perspectiva de implementar Frameworks como Angular, Vue o React en el futuro
+  Descubre un espacio dedicado al fascinante mundo del desarrollo de software.
 </p>
+
+<p class="mt-3">
+  🛠 Tecnologías Utilizadas:
+  Django,
+  Tailwind CSS
+  y PostgreSQL. Deploy en Render: <a href="#https://blog-anderdev-com.onrender.com/" target="_blank" class="text-blue-600">Link</a>
+
+</p>
+<div class="mt-3">
+  ✨ Funcionalidades Destacadas:
+
+  Inicio de Sesión y Registro para una experiencia personalizada.
+  Interactúa con Likes, Comentarios y Vistas.
+  Dashboard de Administrador para una gestión eficiente.
+  Autenticación y Permisos para una experiencia segura.
+</div>
+
 
 <div class="flex gap-5">
 <a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
@@ -42,39 +67,27 @@ Volver  </a>
 </div>
 </div>
     <div class="flex flex-col justify-center mb-20">
-          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Agregar productos al carrito</h1>
+          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Inicio </h1>
           <div>
-            <p class="mb-10 w-3/4">
-            Podras agregar productos al carrito de compras.
-          </p>
+            <p class="mb-10 w-3/4">Podras ver los Posts que subo , podras interacturar con ello como Like, Comentar, y Visitas.</p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-            <img src="../ecommerce/ecomerc1.png" alt="img1" class="rounded-lg">
+          <img src="../blogpersonal/blog2.png" alt="img1" class="rounded-lg">
+          <img src="../blogpersonal/likes.png" alt="img1" class="rounded-lg mt-5">
         </div>
-          <h1 class="text-2xl font-bold py-2 mt-5"># Seccion de catalogo</h1>
-           <div>
-            <p class="mb-10 w-3/4">
-              Cuenta con funcionalidades como filtrado y buscado de productos.
-          </p>
+    </div>
+     <div class="flex flex-col justify-center mb-20">
+          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Dashboard de administrador </h1>
+          <div>
+            <p class="mb-10 w-3/4">Dashboard para administrador los Posts,Comentarios, Usuarios y más!</p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../ecommerce/ecomerc2.png" alt="img1" class="rounded-lg">
-          </div>
-          <h1 class="text-2xl font-bold mt-5 mb-5"># Pasarela de pago con paypal</h1>
-           <div>
-            <p class="mb-10 w-3/4">
-            Pasarela de pago de prueba con Paypal en Django
-          </p>
-          </div>
-         <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../ecommerce/pago1.png" alt="img1" class="rounded-lg">
-          </div>
-                   <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../ecommerce/pago2.png" alt="img1" class="rounded-lg">
-          </div>
+          <img src="../blogpersonal/dashboard.png" alt="img1" class="rounded-lg">
+          <img src="../blogpersonal/dash2.png" alt="img1" class="rounded-lg mt-5">
+        </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
   </svg>
 </a>
