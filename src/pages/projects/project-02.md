@@ -12,11 +12,8 @@ tecnologias :
   tec2 : "../icons/mysql-logo-svgrepo-com.png"
   tec3 : "../icons/docker-svgrepo-com.png"
 ---
-
-
-<img src="../devcollab/devwebp.webp" alt="DevCollab" class="w-40 mb-5" />
 <p class="mb-5 text-sm text-gray-400">Desarollado desde 12/09/23 hasta el 20/09/23 </p>
-<h2 class="text-4xl mb-5 font-bold  text-gray-200">Plataforma Dev Collab</h2>
+<h2 class="text-4xl mb-5 font-bold  text-gray-200">Ecommerce Web</h2>
 
 
 
