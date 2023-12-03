@@ -4,5 +4,3 @@
 * Incluye ViewTransitions / Rutas dinamicas / Animaciones
 # Deploy in vercel 
 <a href="https://portafolio-anderdev.vercel.app/" target=_blank>https://portafolio-anderdev.vercel.app/ </a>
- 
- 
