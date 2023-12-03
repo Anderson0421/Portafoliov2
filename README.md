@@ -1,6 +1,6 @@
 # Portafolio Web
 * Hecho con mucho ❤️ por AnderDev
 * Hecho con Tailwindcc y en Astro 🚀
-* Incluye ViewTransitions / Rutas dinamicas / Animaciones .etc
+* Incluye ViewTransitions / Rutas dinamicas / Animaciones
 # Deploy in vercel
 <a href="https://portafolio-anderdev.vercel.app/" target=_blank>https://portafolio-anderdev.vercel.app/ </a>
