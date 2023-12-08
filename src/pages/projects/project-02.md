@@ -40,7 +40,7 @@ tecnologias :
   🛠 Tecnologías Utilizadas:
   Django,
   Tailwind CSS
-  y PostgreSQL. Deploy en Render: <a href="#https://blog-anderdev-com.onrender.com/" target="_blank" class="text-blue-600">Link</a>
+  y PostgreSQL. Deploy en Render: <a href="https://blog-anderdev-com.onrender.com/" target="_blank" class="text-blue-600">Link</a>
 
 </p>
 <div class="mt-3">
