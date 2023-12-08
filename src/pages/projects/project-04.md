@@ -1,36 +1,28 @@
 ---
 layout: ../../layouts/LayoutsProject.astro
-title: Dashboard administrativo
+title: Sistema de predios
 author: AnderDev
-description: "Web diseñada para un restaurante con diversos productos y un sistema de pedidos. Esta sistema se incluyó PHP, CSS3 y JavaScript, implemente AJAX para optimizar la carga de contenido. Además, gestioné la base de datos utilizando MySQL para garantizar la integridad de los datos y la funcionalidad del sitio."
+date: 10/09/23  -  18/10/23
+description: "Sistema de predios y deudas con Django y PostgreSQL Diversas funcionalidades como consultas de predios , consultas de deudas , Dashboard User, Registro de usuario, Dashboard Administrador, Login Implementación de Datatables para la visualizacion de datos ,etc."
 image:
-  url: "../dashadmin/img1.png"
-  alt: "Dashboard administrativo"
+  url: "../predios/predio1.jpg"
+  alt: "Sistema de predios"
 tecnologias : 
-  tec1 : "../icons/php-svgrepo-com.png"
-  tec2 : "../icons/mysql-logo-svgrepo-com.png"
+  tec1 : "../icons/django-svgrepo-com.png"
+  tec2 : "../icons/postgresql-svgrepo-com.png"
   tec3 : "../icons/javascript-svgrepo-com.png"
 ---
 
 
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 05/03/23 hasta el 20/05/23 </p>
-<h2 class="text-4xl mb-5 font-bold  text-gray-200">Dashoard administrativo</h2>
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 20/08/23 hasta el 20/09/23 </p>
+<h2 class="text-4xl mb-5 font-bold  text-gray-200">Plataforma de Predios</h2>
 
 
 
 <div class="pr-5">
-Web diseñada para un restaurante con diversos productos y un sistema de pedidos. Sistema administrativo de productos y pedidos, Esta sistema se incluyó PHP, CSS3 y JavaScript
+Sistema de predios y deudas con Django y PostgreSQL Diversas funcionalidades como consultas de predios , consultas de deudas
 <p class="mt-3">
-Gestion de la base de datos utilizando MySQL para garantizar la integridad de los datos y la funcionalidad del sitio
-</p>
-
-<p class="mt-3">
-Implementacion de AJAX para optimizar la carga de contenido.El proyecto esta en proceso para migrado a Laravel
-
-</p>
-
-<p class="mt-3">
-Algunas de las funcionalidades, Dashoard admin, login , Graficos, DarkMode, Descarga de BD en Excel
+Dashboard User, Registro de usuario, Dashboard Administrador, Login Implementación de Datatables para la visualizacion de datos ,etc
 </p>
 <div class="flex gap-5">
 <a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
@@ -46,47 +38,38 @@ Volver  </a>
 </div>
 </div>
     <div class="flex flex-col justify-center mb-20">
-          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Realizar tu pedido en la web</h1>
+          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Dashboard del administrador</h1>
           <div>
             <p class="mb-10 w-3/4">
-              Una vez realizes tu pedido en la web principal le llegara de inmediato al dashboard del empleado administrador a cargo, dentro de ello el administrador debera hacer la entrega del pedido y marcar si el pedido esta pagado o no
+              Dashboard del administrador para administrar predios, usuarios, deudas, Reportes, etc
           </p>
           </div>
-         <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../dashadmin/pedido.png" alt="img1" class="rounded-lg">
+         <div class="max-2xl:w-full max-2xl:pr-5 gap-5 flex flex-col">
+          <img src="../predios/predio1.jpg" alt="img1" class="rounded-lg">
+          <img src="../predios/predio2.jpg" alt="img1" class="rounded-lg">
         </div>
-          <h1 class="text-2xl font-bold py-2 mt-5"># Seccion de Dashboard</h1>
+          <h1 class="text-2xl font-bold py-2 mt-5">#Dashboard del usuario</h1>
            <div>
             <p class="mb-10 w-3/4">
-            Como podemos observar el pedido llega correctamente y de aqui se encarga el administrador
+            El usuario podra ver los predios con la informacion dada que le pertenece asi como tambien las deudas que tiene.
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../dashadmin/llego.png" alt="img1" class="rounded-lg">
+          <img src="../predios/predio3.jpg" alt="img1" class="rounded-lg">
           </div>
-          <h1 class="text-2xl font-bold mt-5 mb-5"># Graficos de TOP Ventas y TOP Productos</h1>
+          <h1 class="text-2xl font-bold mt-5 mb-5"># Perfil del usuario</h1>
            <div>
             <p class="mb-10 w-3/4">
-              Implementación de graficos para la visualización de las ventas y los productos mas vendidos para tener mayor control de los pedidos.
+              El usuario podra ver su perfil y editarlo ademas de tener un aviso de cuantas deudas tiene
+              todo cuenta con validaciones y sweetalert en caso de fallas.
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../dashadmin/grafics.png" alt="img1" class="rounded-lg mb-10">
-          <img src="../dashadmin/grafics2.png" alt="img1" class="rounded-lg">
-          </div>
-           <h1 class="text-2xl font-bold mt-5 mb-5"># Gestion de tus productos y Descarga de la BD en Excel</h1>
-           <div>
-            <p class="mb-10 w-3/4">
-              Gestión de los productos que estaran en la pagina web principal, si actualizas algun precio o imagen, automaticamente se actualizara en la web principal, Descarga la BD en formato Excel segun las fechas que coloques para tener mayor seguimiento de las ventas!
-            </p>
-          </div>
-         <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../dashadmin/producs.png" alt="img1" class="rounded-lg mb-10">
-          <img src="../dashadmin/bdexcel.png" alt="img1" class="rounded-lg">
+          <img src="../predios/predio4.jpg" alt="img1" class="rounded-lg">
           </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
   </svg>
 </a>
