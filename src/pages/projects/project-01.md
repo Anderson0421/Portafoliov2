@@ -21,6 +21,7 @@ tecnologias :
 
 
 <div class="pr-5">
+<h1 class="text-2xl font-bold mb-5"><span class="text-yellow-300">3er puesto</span> en concurso WeLatin@s del total de 120 equipos!</h1>
 En el Perú, la falta de oportunidad laboral afecta un 75% de jóvenes. Donde el 40% tienen menos de un año de experiencia, del total, un 29% lleva entre 3 a 6 meses buscando oportunidad laboral y el 45% no encuentra por no tener expedición, después de haber culminado sus estudios de pre grado. FUENTE: RPP – 2023
 <p class="mt-3">
 DevCollab es una plataforma web en el que podrás realizar proyectos, aprender y aún más, poder generar relaciones profesionales y empresariales, abriéndose grandes oportunidades de trabajo.
