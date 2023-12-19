@@ -3,12 +3,12 @@ import Proyect from "../components/Proyect.astro";
 
 ---
 
-<section class="ml-72 pt-10 overflow-x-hidden max-md:ml-0 max-md:pt-1 relative overflow-hidden" id="home">
-    <div class="px-10 w-full">
+<section class="ml-72 pt-10 flex flex-col  overflow-x-hidden max-md:ml-0 max-md:pt-1 relative overflow-hidden" id="home">
+    <div class="px-10 w-full flex flex-col gap-1">
         <h1 class="text-lg">Hey there 👋 </h1>
         <h1 class="text-4xl font-extrabold animateh1">I'm Anderson Marcelo </h1>
         <p class="text-xl">Software Enginner with IA & FullStack Developer</p>
-        <p class="mt-2">Software engineer. FullStack Developer, self-taught person with a strong attitude of leadership and creativity, I have an innate passion for constant and autonomous learning</p>
+        <p class="mt-2 w-2/3">Software engineer. FullStack Developer, self-taught person with a strong attitude of leadership and creativity, I have an innate passion for constant and autonomous learning</p>
         
         <!-- Botones -->
         <div class="flex mt-7 gap-3">
@@ -27,14 +27,14 @@ import Proyect from "../components/Proyect.astro";
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-vscode" width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 3v18l4 -2.5v-13z" /><path d="M9.165 13.903l-4.165 3.597l-2 -1l4.333 -4.5m1.735 -1.802l6.932 -7.198v5l-4.795 4.141" /><path d="M16 16.5l-11 -10l-2 1l13 13.5" /></svg>
         </h1>
         <div class="flex gap-y-8 flex-col max-sm:gap-y-10">
-            <a href="/Projects">
+            <a href="/Projects" class="w-2/3 max-xl:w-full">
                 <Proyect img="blogpersonal/blog2.png" title="Blog Personal" descrip="Blog personal desarollado con Django para el Backend y Tailwind para el frontend, Proyecto desplegado en Render con base de datos PostgreSQL"></Proyect>
                 <Proyect img="devcollab/img.jpg" title="Plataforma DevCollab" descrip="DevCollab es una plataforma web en el que podrás realizar proyectos, aprender y aún más, poder generar relaciones profesionales y empresariales, abriéndose grandes oportunidades de trabajo.Desarollado en Django con Tailwind y PostgreSQL"></Proyect>
             </a>
         </div>
-        
     </div>
 </section>
+
 <style is:global>
     .animateh1{
         position: sticky;
