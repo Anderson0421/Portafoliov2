@@ -4,7 +4,7 @@ title: Innovación Solar Perú
 author: AnderDev
 date: 29/12/23  -  10/01/23
 description: "
-Pagina web desarrollado para la empresa Innovación Solar Perú, Desarrollado con React, Astro, Tailwind y unas librerias extras.
+Pagina web desarrollado para la empresa Innovación Solar Perú, Desarrollado con React, Astro, Tailwind, Implementación de ChatBot,optimización para los motores de búsqueda (SEO) y el rendimiento general del sitio.
 "
 image:
   url: "../innovasolar/cap11.png"

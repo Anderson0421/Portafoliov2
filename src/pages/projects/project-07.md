@@ -1,21 +1,22 @@
 ---
 layout: ../../layouts/LayoutsProject.astro
-title: DevCollab v1
+title: Sistema de Gestion de Personal
 author: AnderDev
 date: 10/09/23  -  18/10/23
-description: "DevCollab es una plataforma web en el que podrás realizar proyectos, aprender y aún más, poder generar relaciones profesionales y empresariales, abriéndose grandes oportunidades de trabajo.Desarollado en Django con Tailwind y PostgreSQL"
+description: "Desarrollé un sistema de gestión de personal basado en Django, MySQL, Tailwind y Azure para los archivos multimedia, diseñado para la 
+administración integral de empleados y el control de asistencia en tiempo real con WebSockets."
 image:
   url: "../devcollab/img.jpg"
   alt: "DevCollab"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"
-  tec2 : "../icons/postgresql-svgrepo-com.png"
-  tec3 : "../icons/tailwind-svgrepo-com.png"
+  tec2 : "../icons/mysql-logo-svgrepo-com.png"
+  tec3 : "../icons/Microsoft_Azure.svg"
 ---
 
 
 <img src="../devcollab/devwebp.webp" alt="DevCollab" class="w-40 mb-5" />
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 30/10/23 hasta el 20/11/23 </p>
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 25/01/24 hasta el 10/03/24 </p>
 <h2 class="text-4xl mb-5 font-bold  text-gray-200">Plataforma Dev Collab</h2>
 
 

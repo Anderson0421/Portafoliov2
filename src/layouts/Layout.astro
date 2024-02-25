@@ -1,11 +1,6 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
 import Sidebar from './Sidebar.astro';
-interface Props {
-	title: string;
-}
 
-const { title } = Astro.props;
 ---
 <!doctype html>
 <html lang="en" data-theme="dark">
@@ -14,15 +9,16 @@ const { title } = Astro.props;
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-		<title>{title}</title>
-		<ViewTransitions/>
+		<title>
+			Portafolio de Anderson Marcelo
+		</title>
 	</head>
 	<body class="bg-black">
 		<Sidebar/>
 		<div class="absolute top-0 z-[-2] h-screen w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
 		<slot />
 		<script>
-			document.addEventListener('astro:page-load', () => {
+			document.addEventListener('DOMContentLoaded', () => {
 				const BtnMenu = document.getElementById('BtnMenu');
 				const sidebar = document.getElementById('sidebar');
 				const svg = BtnMenu.querySelector('svg');
@@ -69,7 +65,7 @@ const { title } = Astro.props;
 			*{
 				font-family: 'Onest', sans-serif;
 			}
-
+			
 		</style>
 	</body>
 </html>

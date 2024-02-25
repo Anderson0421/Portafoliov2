@@ -3,7 +3,7 @@ import Proyect from "../components/Proyect.astro";
 
 ---
 
-<section class="ml-72 pt-10 flex flex-col   overflow-x-hidden max-md:ml-0 max-md:pt-1 relative overflow-hidden" id="home">
+<section class="ml-72 pt-10 flex flex-col   overflow-x-hidden max-lg:ml-0 max-md:pt-1 relative overflow-hidden" id="home">
     <div class="px-10 w-full flex flex-col gap-2">
         <h1 class="text-xl  text-gray-300">Hey there 👋 </h1>
         <h1 class="text-5xl max-md:text-4xl font-extrabold animateh1 text-white">I'm Anderson Marcelo </h1>
@@ -40,24 +40,3 @@ import Proyect from "../components/Proyect.astro";
         </div>
     </div>
 </section>
-
-<style is:global>
-    @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;400;500;600;700;800;900&display=swap');
-    *{
-        font-family: 'Onest', sans-serif;
-    }
-    .animateh1{
-        position: sticky;
-        animation:traistionheader linear both;
-        animation-timeline: scroll(root);
-        animation-range: 0 200px;
-    }
-    @keyframes traistionheader{
-        to{
-            backdrop-filter: blur(5px);
-            font-size: 18px;
-            color: black;
-        }
-        
-    }
-</style>

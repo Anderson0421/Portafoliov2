@@ -3,7 +3,8 @@ layout: ../../layouts/LayoutsProject.astro
 title: Blog Personal
 author: AnderDev
 date: 20/11/23  -  10/12/23
-description: "Blog personal desarollado con Django para el Backend y Tailwind para el frontend, Proyecto desplegado en Render con base de datos PostgreSQL"
+description: "Desarrollo de una API con Django Rest Framework, respaldada por una base de datos MySQL en 
+Azure, para el almacenamiento de archivos multimedia. Integración con React y Tailwind para el desarrollo del Frontend y consumo de la API"
 image:
   url: "../blogpersonal/blog2.png"
   alt: "Blog Personal"
