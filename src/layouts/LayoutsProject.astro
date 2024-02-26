@@ -1,6 +1,5 @@
 ---
 import MenuItems from "../data/menuItemsData";
-import MenuItemView from "../components/MenuItemView.astro";
 import Layout from "./Layout.astro";
 
 export interface Props {
@@ -23,11 +22,6 @@ const { title } = Astro.props;
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     </head>
     <body>
-        {
-            MenuItems.map(({ icon, title, url}) => (
-            <MenuItemView icon={icon} title={title} url={url} />
-            ))
-        }
         <Layout title="Mi portafolio.">
             <section class="ml-80 pt-10 overflow-x-hidden max-md:ml-5 max-md:pt-1 relative overflow-hidden" id="home">
                 <slot />      
