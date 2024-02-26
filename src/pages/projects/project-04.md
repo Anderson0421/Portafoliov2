@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/LayoutsProject.astro
-title: Blog Personal
+title: Innovacion Solar Peru - Ecommerce
 author: AnderDev
 date: 20/11/23  -  10/12/23
 description: "Desarrollo de una API con Django Rest Framework, respaldada por una base de datos MySQL en 
@@ -17,11 +17,13 @@ tecnologias :
 
 
 <p class="mb-5 text-sm text-gray-400">Desarollado desde 20/11/23 hasta el 01/12/23 </p>
-<h2 class="text-4xl mb-5 font-bold  text-gray-200">Blog Personal</h2>
+<h2 class="text-4xl mb-5 font-bold  text-gray-200">
+  Innovacion Solar Peru - Ecommerce
+</h2>
 
 
 
-<div class="pr-5">
+<div class="pr-5 text-gray-100">
 
 <p class="mt-3">
 
@@ -54,7 +56,7 @@ tecnologias :
 </div>
 
 
-<div class="flex gap-5">
+<div class="flex gap-5 text-gray-50">
 <a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
@@ -67,7 +69,7 @@ Ver más</a>
 Volver  </a>
 </div>
 </div>
-    <div class="flex flex-col justify-center mb-20">
+    <div class="flex flex-col justify-center mb-20 text-gray-100">
           <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Inicio </h1>
           <div>
             <p class="mb-10 w-3/4">Podras ver los Posts que subo , podras interacturar con ello como Like, Comentar, y Visitas.</p>
@@ -77,8 +79,8 @@ Volver  </a>
           <img src="../blogpersonal/likes.png" alt="img1" class="rounded-lg mt-5">
         </div>
     </div>
-     <div class="flex flex-col justify-center mb-20">
-          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Dashboard de administrador </h1>
+     <div class="flex flex-col justify-center mb-20 text-gray-100">
+          <h1 class="text-2xl font-bold py-2 mt-5 " id="content"># Dashboard de administrador </h1>
           <div>
             <p class="mb-10 w-3/4">Dashboard para administrador los Posts,Comentarios, Usuarios y más!</p>
           </div>

@@ -8,7 +8,7 @@ Pagina web desarrollado para la empresa Innovación Solar Perú, Desarrollado co
 "
 image:
   url: "../innovasolar/innovaportada.png"
-  alt: "Blog Personal"
+  alt: "Innovacion Solar Peru"
   width: "100"
 tecnologias : 
   tec1 : "../icons/react-javascript-js-framework-facebook-svgrepo-com.png"
