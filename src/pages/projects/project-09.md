@@ -19,28 +19,24 @@ tecnologias :
 
 
 
-<div class="pr-5">
+<div class="pr-5 text-gray-50">
 Sistema de predios y deudas con Django y PostgreSQL Diversas funcionalidades como consultas de predios , consultas de deudas
-<p class="mt-3">
+<p class="mt-3 text-gray-50">
 Dashboard User, Registro de usuario, Dashboard Administrador, Login Implementación de Datatables para la visualizacion de datos ,etc
 </p>
 <div class="flex gap-5">
-<a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-</svg>
-Ver más</a>
-<a  href="/Projects" class="btn btn-outline btn-primary mt-10 flex w-max">
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-</svg>
-Volver  </a>
+<a  href="../" class=" mt-5 flex w-max gap-2 bg-violet-500 px-5 py-2 rounded-xl">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+    </svg>
+Volver 
+</a>
 </div>
 </div>
     <div class="flex flex-col justify-center mb-20">
-          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Dashboard del administrador</h1>
+          <h1 class="text-2xl font-bold py-2 mt-5 text-gray-50" id="content">Dashboard del administrador</h1>
           <div>
-            <p class="mb-10 w-3/4">
+            <p class="mb-10 w-3/4 text-gray-50">
               Dashboard del administrador para administrar predios, usuarios, deudas, Reportes, etc
           </p>
           </div>
@@ -48,18 +44,18 @@ Volver  </a>
           <img src="../predios/predio1.jpg" alt="img1" class="rounded-lg">
           <img src="../predios/predio2.jpg" alt="img1" class="rounded-lg">
         </div>
-          <h1 class="text-2xl font-bold py-2 mt-5">#Dashboard del usuario</h1>
+          <h1 class="text-2xl font-bold py-2 mt-5 text-gray-50">Dashboard del usuario</h1>
            <div>
-            <p class="mb-10 w-3/4">
+            <p class="mb-10 w-3/4 text-gray-50">
             El usuario podra ver los predios con la informacion dada que le pertenece asi como tambien las deudas que tiene.
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
           <img src="../predios/predio3.jpg" alt="img1" class="rounded-lg">
           </div>
-          <h1 class="text-2xl font-bold mt-5 mb-5"># Perfil del usuario</h1>
+          <h1 class="text-2xl font-bold mt-5 mb-5 text-gray-50">Perfil del usuario</h1>
            <div>
-            <p class="mb-10 w-3/4">
+            <p class="mb-10 w-3/4 text-gray-50">
               El usuario podra ver su perfil y editarlo ademas de tener un aviso de cuantas deudas tiene
               todo cuenta con validaciones y sweetalert en caso de fallas.
           </p>

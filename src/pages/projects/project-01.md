@@ -6,7 +6,7 @@ date: 10/09/23  -  18/10/23
 description: "Desarrollé un sistema de gestión de personal basado en Django, MySQL, Tailwind y Azure para los archivos multimedia, diseñado para la 
 administración integral de empleados y el control de asistencia en tiempo real con WebSockets."
 image:
-  url: "../innovasolar/adminapp2.png"
+  url: "https://i.ibb.co/ZRjfjX2/Plataforma.png"
   alt: "Sistema de control de personal"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"
@@ -15,7 +15,7 @@ tecnologias :
 ---
 
 
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 25/01/24 hasta el 10/03/24 </p>
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 25/01/24 hasta el 15/03/24 </p>
 <h2 class="text-4xl mb-5 font-bold  text-gray-200">
     Sistema administrativo de personal
 </h2>
@@ -30,7 +30,7 @@ administración integral de empleados y el control de asistencia en tiempo real 
 </p>
 
 <p class="mt-3 text-gray-200">
-Dentro de la plataforma se cuenta con Control de productos de la empresa, Control de Empleados, Reportes automatizados en Excel, Actualizacion en tiempo real de asistencias con websockets, Graficos con datos reales, Gestión de inventario, Paginación, etc. 
+Dentro de la plataforma se cuenta con Control de productos de la empresa, Control de Empleados, Reportes automatizados en Excel,Control de rendimiento de actividades, Actualizacion en tiempo real de asistencias con websockets, Graficos con datos reales, Gestión de inventario, Paginación, etc. 
 </p>
 <div class="flex gap-5">
 <a  href="../" class=" mt-5 flex w-max gap-2 bg-violet-500 px-5 py-2 rounded-xl">
@@ -52,8 +52,9 @@ Volver
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5 flex flex-col gap-5">
           <img src="../innovasolar/empleados.png" alt="img1" class="rounded-lg">
-          <img src="../innovasolar/asistencia.png" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/asistencia1.png" alt="img1" class="rounded-lg">
           <img src="../innovasolar/informes.png" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/rendimiento.png" alt="img1" class="rounded-lg">
         </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">

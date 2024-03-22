@@ -7,7 +7,7 @@ description: "
 Pagina web desarrollado para la empresa Innovación Solar Perú, Desarrollado con React, Astro, Tailwind, Implementación de ChatBot,optimización para los motores de búsqueda (SEO) y el rendimiento general del sitio.
 "
 image:
-  url: "../innovasolar/innovaportada.png"
+  url: "https://i.ibb.co/DLk1vQT/innovacion-API.png"
   alt: "Innovacion Solar Peru"
   width: "100"
 tecnologias : 
@@ -24,17 +24,12 @@ tecnologias :
 
 <div class="pr-5 text-gray-50">
 
-<p class="mt-3">
-
-  🚀 ¡Bienvenido! 🚀
-
-</p>
-
 
 <p class="mt-3 text-gray-50">
   🛠 Tecnologías Utilizadas:
   React,
-  Astro
+  Astro,
+  Django REST,
   Tailwind,
   Alpine.js,
   AOS
@@ -56,15 +51,23 @@ Volver  </a>
 </div>
 </div>
     <div class="flex flex-col justify-center mb-10 text-gray-50">
-          <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Imagenes del proyecto </h1>
+          <h1 class="text-2xl font-bold py-2 mt-5" id="content">Imagenes del proyecto </h1>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../innovasolar/cap1.png" alt="img1" class="rounded-lg">
+          <img src="https://i.ibb.co/DLk1vQT/innovacion-API.png" alt="img1" class="rounded-lg">
         </div>
     </div>
-     <div class="flex flex-col justify-center mb-20 text-gray-50">
-          <h1 class="text-2xl font-bold py-5 mt-5" id="content"># Chatbot desarrollado en React </h1>
+     <div class="flex flex-col justify-center mb-2 text-gray-50">
+          <h1 class="text-2xl font-bold py-5 mt-5" id="content">Chatbot desarrollado en React </h1>
          <div class="max-2xl:w-full max-2xl:pr-5">
           <img src="../innovasolar/cap2.png" alt="img1" class="rounded-lg">
+        </div>
+    </div>
+     <div class="flex flex-col justify-center mb-2 text-gray-50">
+          <h1 class="text-2xl font-bold py-5 mt-5" id="content">
+            Ecommerce integrado con una API REST en Django
+          </h1>
+         <div class="max-2xl:w-full max-2xl:pr-5">
+          <img src="../innovasolar/products.png" alt="img1" class="rounded-lg">
         </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
