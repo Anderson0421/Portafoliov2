@@ -25,12 +25,12 @@ tecnologias :
 <div class="pr-5 text-gray-50">
 
 <p class="mt-3 text-gray-200">
-Desarrollé un sistema de gestión de personal basado en Django, MySQL, Tailwind y Azure para los archivos multimedia, diseñado para la 
-administración integral de empleados y el control de asistencia en tiempo real con WebSockets.
-</p>
+Desarrollé un completo sistema de gestión de recursos humanos utilizando tecnologías avanzadas como Django, MySQL, Tailwind y Azure.
+Este sistema ofrece un control de asistencia en tiempo real, generación automática de informes en Excel, seguimiento del rendimiento de los
+empleados con gráficos detallados, y un módulo de inventario para gestionar entradas y salidas de productos. Con una interfaz moderna y
+amigable, este sistema optimiza los procesos internos y mejora la experiencia del usuario, representando una solución integral para las
+necesidades empresariales actuales.
 
-<p class="mt-3 text-gray-200">
-Dentro de la plataforma se cuenta con Control de productos de la empresa, Control de Empleados, Reportes automatizados en Excel,Control de rendimiento de actividades, Actualizacion en tiempo real de asistencias con websockets, Graficos con datos reales, Gestión de inventario, Paginación, etc. 
 </p>
 <div class="flex gap-5">
 <a  href="../" class=" mt-5 flex w-max gap-2 bg-violet-500 px-5 py-2 rounded-xl">
@@ -51,10 +51,19 @@ Volver
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5 flex flex-col gap-5">
-          <img src="../innovasolar/empleados.png" alt="img1" class="rounded-lg">
-          <img src="../innovasolar/asistencia1.png" alt="img1" class="rounded-lg">
-          <img src="../innovasolar/informes.png" alt="img1" class="rounded-lg">
-          <img src="../innovasolar/rendimiento.png" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/empleados.webp" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/asistencia1.webp" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/informes.webp" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/graficos.webp" alt="img1" class="rounded-lg">
+           <h1>
+              En la sección de rendimiento, los usuarios pueden ver su calificación, que oscila entre 0 y 20, correspondiente a las actividades que llevaron a cabo cada día de la semana. Esta calificación se calcula automáticamente en Python. Al ingresar la asistencia, los usuarios registran sus responsabilidades, actividades de valor y metas, cada una con una puntuación diferente. Luego, se calcula un promedio basado en estas puntuaciones para determinar la calificación general del usuario.
+          </h1>
+          <img src="../innovasolar/rendimiento.webp" alt="img1" class="rounded-lg">
+          <h1>
+            La seccion de inventario incluye diversas funcionalidades como filtrar inventario por Local, Registro de entrada y salida y historial de este mismo.
+            Descargar en excel automatizado de productos por Local, Proceso CRUD completo.
+          </h1>
+          <img src="../innovasolar/inventario.webp" alt="img1" class="rounded-lg">
         </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">

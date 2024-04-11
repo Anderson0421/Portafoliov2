@@ -28,46 +28,51 @@ tecnologias :
 <p class="mt-3 text-gray-50">
   🛠 Tecnologías Utilizadas:
   React,
-  Astro,
   Django REST,
   Tailwind,
-  Alpine.js,
-  AOS
+  Azure,
+  MySQL
   . Deploy: <a href="https://www.innovacionsolarperu.com/" target="_blank" class="text-blue-600">Link</a>
 
 </p>
 
-<div class="flex gap-5 text-gray-50">
-<a  href="#content" class="btn btn-outline btn-primary mt-10 flex w-max">
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-</svg>
-Ver más</a>
-<a  href="../#proyectos" class="btn btn-outline btn-primary mt-10 flex w-max">
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-</svg>
-Volver  </a>
+<div class="flex gap-5">
+<a  href="../" class=" mt-5 flex w-max gap-2 bg-violet-500 px-5 py-2 rounded-xl">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+    </svg>
+Volver 
+</a>
 </div>
+
 </div>
     <div class="flex flex-col justify-center mb-10 text-gray-50">
           <h1 class="text-2xl font-bold py-2 mt-5" id="content">Imagenes del proyecto </h1>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="https://i.ibb.co/DLk1vQT/innovacion-API.png" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/cap11.webp" alt="img1" class="rounded-lg">
         </div>
     </div>
      <div class="flex flex-col justify-center mb-2 text-gray-50">
           <h1 class="text-2xl font-bold py-5 mt-5" id="content">Chatbot desarrollado en React </h1>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../innovasolar/cap2.png" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/cap2.webp" alt="img1" class="rounded-lg">
         </div>
     </div>
      <div class="flex flex-col justify-center mb-2 text-gray-50">
-          <h1 class="text-2xl font-bold py-5 mt-5" id="content">
-            Ecommerce integrado con una API REST en Django
+          <h1 class="text-xl font-bold py-5 mt-5" id="content">
+            Ecommerce integrado con una API REST en Django REST Framework para 
+            el listado de productos, categorias, blog y proyectos
           </h1>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../innovasolar/products.png" alt="img1" class="rounded-lg">
+          <img src="../innovasolar/products.webp" alt="img1" class="rounded-lg">
+        </div>
+    </div>
+    <div class="flex flex-col justify-center mb-2 text-gray-50">
+          <h1 class="text-2xl font-bold py-5 mt-5" id="content">
+              Pasarela de pago con Culqui <span class="text-sm">(Incluye Tarjetas de credio, BCP, Yape, etc.)</span>
+          </h1>
+         <div class="max-2xl:w-full max-2xl:pr-5">
+          <img src="../innovasolar/checkout.webp" alt="img1" class="rounded-lg">
         </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">

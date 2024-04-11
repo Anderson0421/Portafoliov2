@@ -5,7 +5,7 @@ author: AnderDev
 date: 10/09/23  -  18/10/23
 description: "Ecommerce web utilizando Django y MySQL, Docker , Git , GitHub Diversas funcionalidades como pasarela de pago con PayPal, carrito de compras, etc. Proyecto orientado a la mejora continua, con la perspectiva de implementar Frameworks como Angular, Vue o React en el futuro"
 image:
-  url: "../ecommerce/ecomerc3.png"
+  url: "../ecommerce/ecomerc3.webp"
   alt: "Ecommerce Web"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"

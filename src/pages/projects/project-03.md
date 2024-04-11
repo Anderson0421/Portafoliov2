@@ -2,7 +2,7 @@
 layout: ../../layouts/LayoutsProject.astro
 title: Blog Personal
 author: AnderDev
-date: 20/11/23  -  10/12/23
+date: 10/02/24  -  20/03/24
 description: "Desarrollo de una API con Django Rest Framework, respaldada por una base de datos MySQL en 
 Azure, para el almacenamiento de archivos multimedia. Integración con React y Tailwind para el desarrollo del Frontend y consumo de la API"
 image:
@@ -16,7 +16,7 @@ tecnologias :
 ---
 
 
-<p class="mb-5 text-sm text-gray-400">Desarollado desde 20/11/23 hasta el 01/12/23 </p>
+<p class="mb-5 text-sm text-gray-400">Desarollado desde 10/02/24 hasta el 25/03/24 </p>
 <h2 class="text-4xl mb-5 font-bold  text-gray-200">Blog Personal</h2>
 
 
@@ -39,21 +39,13 @@ tecnologias :
 
 <p class="mt-3">
   🛠 Tecnologías Utilizadas:
-  Django,
-  Tailwind CSS
-  y PostgreSQL
+  Django REST,
+  React,
+  Typescript,
+  Tailwind,
+  NextUI.
 
 </p>
-<div class="mt-3">
-  ✨ Funcionalidades Destacadas:
-
-  Inicio de Sesión y Registro para una experiencia personalizada.
-  Interactúa con Likes, Comentarios y Vistas.
-  Dashboard de Administrador para una gestión eficiente.
-  Autenticación y Permisos para una experiencia segura.
-</div>
-
-
 <div class="flex gap-5">
 <a  href="../" class=" mt-5 flex w-max gap-2 bg-violet-500 px-5 py-2 rounded-xl">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -66,22 +58,15 @@ Volver
     <div class="flex flex-col justify-center mb-20 text-gray-100">
           <h1 class="text-2xl font-bold py-2 mt-5" id="content"># Inicio </h1>
           <div>
-            <p class="mb-10 w-3/4">Podras ver los Posts que subo , podras interacturar con ello como Like, Comentar, y Visitas.</p>
+            <p class="mb-10 w-3/4">
+              Visualizacion de Posts, Detalle del post, paginacion, etc.
+            </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../blogpersonal/blog.png" alt="img1" class="rounded-lg">
+          <img src="../blogpersonal/blog1.png" alt="img1" class="rounded-lg">
         </div>
     </div>
-     <div class="flex flex-col justify-center mb-20 text-gray-100">
-          <h1 class="text-2xl font-bold py-2 mt-5 " id="content"># Dashboard de administrador </h1>
-          <div>
-            <p class="mb-10 w-3/4">Dashboard para administrador los Posts,Comentarios, Usuarios y más!</p>
-          </div>
-         <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../blogpersonal/dashboard.png" alt="img1" class="rounded-lg">
-          <img src="../blogpersonal/dash2.png" alt="img1" class="rounded-lg mt-5">
-        </div>
-    </div>
+     
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
