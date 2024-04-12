@@ -6,7 +6,7 @@ date: 10/02/24  -  20/03/24
 description: "Desarrollo de una API con Django Rest Framework, respaldada por una base de datos MySQL en 
 Azure, para el almacenamiento de archivos multimedia. Integración con React y Tailwind para el desarrollo del Frontend y consumo de la API"
 image:
-  url: "../blogpersonal/blogportada.png"
+  url: "../blogpersonal/blogportada.webp"
   alt: "Blog Personal"
   width: "100"
 tecnologias : 
@@ -63,7 +63,7 @@ Volver
             </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../blogpersonal/blog1.png" alt="img1" class="rounded-lg">
+          <img src="../blogpersonal/blog1.webp" alt="img1" class="rounded-lg">
         </div>
     </div>
      

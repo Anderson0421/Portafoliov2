@@ -5,7 +5,7 @@ author: AnderDev
 date: 10/09/23  -  18/10/23
 description: "Sistema de predios y deudas con Django y PostgreSQL Diversas funcionalidades como consultas de predios , consultas de deudas , Dashboard User, Registro de usuario, Dashboard Administrador, Login Implementación de Datatables para la visualizacion de datos ,etc."
 image:
-  url: "../predios/predio1.jpg"
+  url: "../predios/predio1.webp"
   alt: "Sistema de predios"
 tecnologias : 
   tec1 : "../icons/django-svgrepo-com.png"
@@ -41,8 +41,8 @@ Volver
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5 gap-5 flex flex-col">
-          <img src="../predios/predio1.jpg" alt="img1" class="rounded-lg">
-          <img src="../predios/predio2.jpg" alt="img1" class="rounded-lg">
+          <img src="../predios/predio1.webp" alt="img1" class="rounded-lg">
+          <img src="../predios/predio2.webp" alt="img1" class="rounded-lg">
         </div>
           <h1 class="text-2xl font-bold py-2 mt-5 text-gray-50">Dashboard del usuario</h1>
            <div>
@@ -51,7 +51,7 @@ Volver
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../predios/predio3.jpg" alt="img1" class="rounded-lg">
+          <img src="../predios/predio3.webp" alt="img1" class="rounded-lg">
           </div>
           <h1 class="text-2xl font-bold mt-5 mb-5 text-gray-50">Perfil del usuario</h1>
            <div>
@@ -61,7 +61,7 @@ Volver
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../predios/predio4.jpg" alt="img1" class="rounded-lg">
+          <img src="../predios/predio4.webp" alt="img1" class="rounded-lg">
           </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">

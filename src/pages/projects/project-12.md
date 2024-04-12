@@ -63,10 +63,10 @@ Volver
           </p>
           </div>
          <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../ecommerce/pago1.png" alt="img1" class="rounded-lg">
+          <img src="../ecommerce/pago1.webp" alt="img1" class="rounded-lg">
           </div>
                    <div class="max-2xl:w-full max-2xl:pr-5">
-          <img src="../ecommerce/pago2.png" alt="img1" class="rounded-lg">
+          <img src="../ecommerce/pago2.webp" alt="img1" class="rounded-lg">
           </div>
     </div>
 <a href="#home" class="btn btn-outline btn-primary mt-10 flex w-max mb-10 ml-auto mr-10 animate-bounce">
